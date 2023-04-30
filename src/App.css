@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -28,4 +36,47 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 18px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.time{
+  font-size: 5rem;
+}
+.container{
+  height: 100vh;
+}
+#root{
+  background: #717171;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
